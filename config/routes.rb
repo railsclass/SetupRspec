@@ -1,4 +1,7 @@
 AdventCalendar::Application.routes.draw do
+  resources :doors
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
